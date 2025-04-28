@@ -77,7 +77,7 @@ export default function ResultsPage() {
 
       const response = await fetch(
         `${
-          process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000"
+          process.env.NEXT_PUBLIC_API_URL || "https://dsylexia-screening-com-plete-game-1.onrender.com"
         }/api/finalResult`,
         {
           method: "POST",
